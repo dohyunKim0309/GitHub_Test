@@ -1,3 +1,5 @@
+import time
+
 class project:
     def __init__(self, name):
         self.name = name
@@ -5,6 +7,9 @@ class project:
 
     def sayhello(self):
         print("hello, my name is {}!".format(self.name))
+
+    def presentTIme(self):
+        print(time.ctime())
 
 
 if __name__ == '__main__':
