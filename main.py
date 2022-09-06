@@ -11,10 +11,12 @@ class project:
     def presentTime(self):
         print("Time is {}".format(time.ctime()))
 
+    @staticmethod
     def haha(self):
         for i in range(100):
             print("HAHAHAHAHAHAAHA")
 
+    @staticmethod
     def success(self):
         print('기쁨의 기립박수')
 
