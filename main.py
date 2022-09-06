@@ -15,6 +15,9 @@ class project:
         for i in range(100):
             print("HAHAHAHAHAHAAHA")
 
+    def success(self):
+        print('기쁨의 기립박수')
+
 
 if __name__ == '__main__':
     p = project("co-Learn")
