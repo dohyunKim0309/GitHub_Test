@@ -7,7 +7,9 @@ class project:
 
     def sayhello(self):
         print("hello, my name is {}!".format(self.name))
-itsme
+    def presentTime(self):
+        print('hello')
+
     def presentTime(self):
         print("Time is {}".format(time.ctime()))
 
@@ -20,7 +22,7 @@ itsme
     def success(self):
         print('기쁨의 기립박수')
 
-    def pass(self):
+    def pas(self):
         pass
 
 
