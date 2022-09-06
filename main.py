@@ -7,7 +7,7 @@ class project:
 
     def sayhello(self):
         print("hello, my name is {}!".format(self.name))
-itsmeeee
+itsme
     def presentTime(self):
         print("Time is {}".format(time.ctime()))
 
