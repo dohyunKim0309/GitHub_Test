@@ -8,10 +8,16 @@ class project:
     def sayhello(self):
         print("hello, my name is {}!".format(self.name))
 
-    def presentTIme(self):
-        print(time.ctime())
+    def presentTime(self):
+        print("Time is {}".format(time.ctime()))
+
+    def haha(self):
+        for i in range(100):
+            print("HAHAHAHAHAHAAHA")
 
 
 if __name__ == '__main__':
     p = project("co-Learn")
     p.sayhello()
+    p.presentTime()
+    p.haha()
