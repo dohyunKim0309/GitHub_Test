@@ -1,16 +1,18 @@
 import time
 
+
 class project:
     def __init__(self, name):
         self.name = name
         print("A project has been created!")
 
-    def sayhello(self):
+    def hello_and_introduce(self):
         print("hello, my name is {}!".format(self.name))
-    def presentTime(self):
+
+    def hello(self):
         print('hello')
 
-    def presentTime(self):
+    def present_time(self):
         print("Time is {}".format(time.ctime()))
 
     @staticmethod
